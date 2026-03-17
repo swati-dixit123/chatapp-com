@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { FaSearch } from 'react-icons/fa'
-import axios from 'axios';
+import axios from '../utils/axios';
 import { toast } from 'react-toastify'
 import { useAuth } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom'

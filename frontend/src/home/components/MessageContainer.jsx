@@ -3,7 +3,7 @@ import userConversation from '../../Zustans/useConversation';
 import { useAuth } from '../../context/AuthContext';
 import { TiMessages } from "react-icons/ti";
 import { IoArrowBackSharp, IoSend } from 'react-icons/io5';
-import axios from 'axios';
+import axios from '../utils/axios';
 import { useSocketContext } from '../../context/SocketContext';
 import notify from '../../assets/sound/notification.mp3';
 
